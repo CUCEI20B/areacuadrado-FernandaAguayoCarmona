@@ -1,9 +1,10 @@
 #include <iostream>
 
 using namespace std;
-
-int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+int main ()
+{   unsigned int lado;
+    cin >> lado;
+    cout << lado * lado << endl;
 
     return 0;
 }
